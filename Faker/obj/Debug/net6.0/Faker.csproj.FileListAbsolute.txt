@@ -1,0 +1,15 @@
+D:\Спп\copy\Faker\Faker\bin\Debug\net6.0\Faker.exe
+D:\Спп\copy\Faker\Faker\bin\Debug\net6.0\Faker.deps.json
+D:\Спп\copy\Faker\Faker\bin\Debug\net6.0\Faker.runtimeconfig.json
+D:\Спп\copy\Faker\Faker\bin\Debug\net6.0\Faker.dll
+D:\Спп\copy\Faker\Faker\bin\Debug\net6.0\ref\Faker.dll
+D:\Спп\copy\Faker\Faker\bin\Debug\net6.0\Faker.pdb
+D:\Спп\copy\Faker\Faker\obj\Debug\net6.0\Faker.csproj.AssemblyReference.cache
+D:\Спп\copy\Faker\Faker\obj\Debug\net6.0\Faker.GeneratedMSBuildEditorConfig.editorconfig
+D:\Спп\copy\Faker\Faker\obj\Debug\net6.0\Faker.AssemblyInfoInputs.cache
+D:\Спп\copy\Faker\Faker\obj\Debug\net6.0\Faker.AssemblyInfo.cs
+D:\Спп\copy\Faker\Faker\obj\Debug\net6.0\Faker.csproj.CoreCompileInputs.cache
+D:\Спп\copy\Faker\Faker\obj\Debug\net6.0\Faker.dll
+D:\Спп\copy\Faker\Faker\obj\Debug\net6.0\ref\Faker.dll
+D:\Спп\copy\Faker\Faker\obj\Debug\net6.0\Faker.pdb
+D:\Спп\copy\Faker\Faker\obj\Debug\net6.0\Faker.genruntimeconfig.cache

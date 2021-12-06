@@ -1,0 +1,34 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Faker", "Faker\Faker.csproj", "{87A157CE-EBBA-4F29-9620-F82039A243AD}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "PluginDateTimeGenerator", "PluginDateTimeGenerator\PluginDateTimeGenerator.csproj", "{5642362B-8C50-432C-9DFB-93616C7E7BF9}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "PluginLongGenerator", "PluginLongGenerator\PluginLongGenerator.csproj", "{3482B538-7781-4D21-857F-378A966D57B6}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Project", "Project\Project.csproj", "{E0D86D82-7B2F-480F-9883-5A93D442441F}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{87A157CE-EBBA-4F29-9620-F82039A243AD}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{87A157CE-EBBA-4F29-9620-F82039A243AD}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{87A157CE-EBBA-4F29-9620-F82039A243AD}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{87A157CE-EBBA-4F29-9620-F82039A243AD}.Release|Any CPU.Build.0 = Release|Any CPU
+		{5642362B-8C50-432C-9DFB-93616C7E7BF9}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{5642362B-8C50-432C-9DFB-93616C7E7BF9}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{5642362B-8C50-432C-9DFB-93616C7E7BF9}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{5642362B-8C50-432C-9DFB-93616C7E7BF9}.Release|Any CPU.Build.0 = Release|Any CPU
+		{3482B538-7781-4D21-857F-378A966D57B6}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{3482B538-7781-4D21-857F-378A966D57B6}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{3482B538-7781-4D21-857F-378A966D57B6}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{3482B538-7781-4D21-857F-378A966D57B6}.Release|Any CPU.Build.0 = Release|Any CPU
+		{E0D86D82-7B2F-480F-9883-5A93D442441F}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{E0D86D82-7B2F-480F-9883-5A93D442441F}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{E0D86D82-7B2F-480F-9883-5A93D442441F}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{E0D86D82-7B2F-480F-9883-5A93D442441F}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+EndGlobal
