@@ -135,30 +135,60 @@ namespace FakerLib
 
             return true;
         }
-
+        //создаю дополнительный лист для хранения всех классов 
+        List<Type> counter = new List<Type>();
+        //ввожу два счетчика для собаки и человека
+        public int count1 = 0;
+        public int count2 = 0;
 
         private bool TryGenerateCls(Type type, out object instance)
         {
+            
             instance = null;
 
             if (!type.IsClass && !type.IsValueType)
                 return false;
-//условие для зацикливания
-            if (circularReferencesEncounter.Contains(type))
+
+            if (circularReferencesEncounter.Contains(type) )
             {
-                instance = default;
-                return true;
+                //берем текущий тип
+                Type type1 = type;
+
+                foreach (Type t  in counter)
+                {
+                    //смотрим , чтобы у нас было два отличных класса и начинаем считать
+                    if (t.Equals(type1))
+                    {
+                        count1++;
+                    }
+
+                    if (!t.Equals(type1))
+                    {
+                        count2++;
+                    }
+                    //когда мы достигли нужной вложенности
+                    if (count1 == 2 && count2 == 2) { break; }
+                }
+                if (count1 == 2 && count2 == 2)
+                {
+                    //выходим
+                    instance = default;
+
+                    return true;
+                }
+                //не достигли, значит зануляем и сначала
+                count1 = 0;
+                count2 = 0;
             }
-
             circularReferencesEncounter.Add(type);
-
+            //добавление листа
+            counter.Add(type);
             if (TryConstruct(type, out instance))
             {
                 GenerateFillProps(instance, type);
                 GenerateFillFields(instance, type);
 
                 circularReferencesEncounter.Remove(type);
-
                 return true;
             }
 
